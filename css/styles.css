@@ -1,0 +1,89 @@
+.navbar
+{
+    position: relative;
+    width: 100;
+    background-color:#e25822 ;
+    flex-flow: column;
+    padding-top: 10px;
+  
+}
+
+.navbar a,a :visited,a :active{
+    text-decoration: none;
+    color: silver;
+    margin-right: 14%;
+    font-weight: 800;
+    font-size: larger;
+    font-style:oblique;
+}
+
+.navbar img{
+    width: 100%;
+}
+
+a #konoha{
+    width: 80px;
+    height: 40px;
+    margin-left: 0;
+}
+
+
+.home{
+   text-align: center;
+   padding-top: 100px;
+}
+
+.home img{
+    width: 400px;
+}
+
+.aboutme{
+    margin: 50px;
+}
+
+img{
+    width: 180px;
+    height:180px;
+}
+
+.skills{
+    padding-top: 50px;
+  }
+  
+  .skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+  }
+
+  .image-1{
+      float: left;
+      margin-right: 30px;
+  }
+
+  .image-2{
+      float: right;
+      margin-left: 30px;
+  }
+
+
+  .contactme{
+      text-align: center;
+  }
+
+  .contactme img{
+      width: 700px;
+      height: 500px;
+  }
+
+  .gall{
+      margin: 50px;
+  }
+
+.gallery1 img{
+    padding: 15px;
+    flex: auto;
+    width: 400px;
+    height: 400px;
+}
